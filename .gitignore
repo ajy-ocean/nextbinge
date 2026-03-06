@@ -1,0 +1,78 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+.env
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Firebase / Google services (very common leak source)
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# Local environment / secrets variants
+.env.*
+!.env.example          # ← commit a template with empty values (good practice)
+
+# Android keystore (if you generate one)
+*.jks
+*.keystore
+key.properties
+
+# VS Code / local debug files (if you use VS Code)
+.vscode/launch.json
+.vscode/tasks.json
+
+# Web build artifacts (if you ever build for web)
+web/build/
+web/*.dart.js
+web/*.js.map
+
+# macOS junk (common on Indian dev machines too)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fastlane / CI temp files (if you use later)
+fastlane/report.xml
+fastlane/readme.md
